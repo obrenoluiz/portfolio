@@ -1,4 +1,3 @@
-// src/app/contact/page.tsx
 import React from 'react';
 
 const ContactPage = () => {
