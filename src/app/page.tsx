@@ -8,7 +8,6 @@ const HomePage = () => {
       <Header />
       <section className="bg-gray-100 py-20 px-6">
         <div className="container mx-auto flex items-center">
-          {/* Imagem à esquerda */}
           <div className="w-48 h-48 mr-8">
             <img
               src="https://avatars.githubusercontent.com/u/169003766?v=4"
@@ -17,7 +16,6 @@ const HomePage = () => {
             />
           </div>
 
-          {/* Textos à direita da imagem */}
           <div className="text-left">
             <h1 className="text-4xl font-bold mb-4">Web Developer ・ Mobile Developer</h1>
             <p className="text-lg text-gray-600 mb-6">
