@@ -1,15 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    output: "export",
+    trailingSlash: true,
+    reactStrictMode: true,
     images: {
         domains: [],
     },
-    trailingSlash: true,
     devIndicators: {
         appIsrStatus: false,
         buildActivity: false,
         buildActivityPosition: 'bottom-right',
     },
-    reactStrictMode: true,
 };
 
 module.exports = nextConfig;
