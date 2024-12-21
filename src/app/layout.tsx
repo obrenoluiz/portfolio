@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Portfólio - Breno Luiz',
-  description: 'Portfólio do Breno Luiz',
+  title: 'Breno Luiz Developer',
+  description: 'Portfólio do desenvolvedor Breno Luiz. Projetos, habilidades, contatos e muito mais!',
 };
 
 export default function RootLayout({
