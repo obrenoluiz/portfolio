@@ -171,7 +171,7 @@ const HomePage = () => {
                   target="_blank"
                   className="text-blue-500 font-semibold hover:underline"
                 >
-                  Saiba mais → 
+                  Saiba mais →
                 </Link>
               </div>
             </div>
@@ -185,11 +185,211 @@ const HomePage = () => {
       >
         <div className="text-center">
           <h2 className="text-3xl font-bold">Minhas Habilidades</h2>
+          <p className="text-lg text-gray-600 mt-4">
+            Com uma paixão por aprender novas tecnologias, desenvolvi habilidades
+            em diversas ferramentas e linguagens. Aqui estão algumas das tecnologias
+            que mais utilizo para criar experiências digitais incríveis.
+          </p>
         </div>
       </section>
 
       <section className="bg-gray-100 py-20 px-6">
         <div className="container mx-auto grid gap-8 md:grid-cols-3">
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                alt="GitHub"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">GitHub</h3>
+            <p className="text-gray-600">
+              GitHub é a plataforma que utilizo para versionamento de código. Através dela, gerencio todos os meus projetos e colaboro com outros desenvolvedores de forma eficiente.
+              <br />
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/git-icon.svg"
+                alt="GitHub"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Git</h3>
+            <p className="text-gray-600">
+              Git é o sistema de controle de versão que utilizo para gerenciar o código dos meus projetos. Com ele, posso rastrear alterações, colaborar com outros desenvolvedores e manter um histórico completo do desenvolvimento.
+              <br />
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
+                alt="React"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">React.js</h3>
+            <p className="text-gray-600">
+              React.js é minha principal biblioteca para desenvolvimento de interfaces interativas. Utilizo-o para criar aplicações rápidas e escaláveis com componentes reutilizáveis.
+              <br />
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/flutter.svg"
+                alt="Flutter"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Flutter</h3>
+            <p className="text-gray-600">
+              Flutter é minha escolha para o desenvolvimento de aplicativos móveis. Com ele, crio apps nativos para Android e iOS com uma única base de código.
+              <br />
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg"
+                alt="Node.js"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Node.js</h3>
+            <p className="text-gray-600">
+              Node.js é uma plataforma poderosa para desenvolvimento de servidores e APIs. Utilizo-a para criar backends rápidos e escaláveis.
+              <br />
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/tailwind-css-1.svg"
+                alt="Tailwind CSS"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Tailwind CSS</h3>
+            <p className="text-gray-600">
+              Tailwind CSS é um framework que me permite estilizar rapidamente interfaces com classes utilitárias, garantindo flexibilidade e controle total sobre o design.
+              <br />
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/markdown.svg"
+                alt="Markdown"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Markdown</h3>
+            <p className="text-gray-600">
+              Markdown é uma linguagem de marcação simples e eficiente, que utilizo para criar documentos e conteúdos estruturados de maneira rápida e legível.
+              <br />
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4 space-x-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/typescript.svg"
+                alt="Typescript"
+                className="w-12 h-12"
+              />
+
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+                alt="Javascript"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Typescript & Javascript</h3>
+            <p className="text-gray-600">
+              Typescript e Javascript são linguagens que utilizo para desenvolvimento web e mobile. Com elas, crio aplicações modernas e eficientes para diversos propósitos.
+              <br />
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4 space-x-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
+                alt="HTML"
+                className="w-12 h-12"
+              />
+
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/css-3.svg"
+                alt="CSS"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">HTML & CSS</h3>
+            <p className="text-gray-600">
+              HTML e CSS são as linguagens fundamentais para o desenvolvimento web. Com elas, crio interfaces responsivas e acessíveis para todos os dispositivos.
+              <br />
+            </p>
+          </div>
+
+          <br />
+          <hr className='my-8 border-gray-300' />
+          <br />
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/figma-icon.svg"
+                alt="Figma"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Figma</h3>
+            <p className="text-gray-600">
+              Figma é a ferramenta que utilizo para design de interfaces. Com ela, crio wireframes, protótipos e designs completos para aplicações web e mobile.
+              <br />
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/mysql-logo-pure.svg"
+                alt="MySQL"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">MySQL</h3>
+            <p className="text-gray-600">
+              MySQL é o sistema de gerenciamento de banco de dados relacional que utilizo para armazenar e gerenciar dados de forma eficiente e segura.
+              <br />
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg"
+                alt="MongoDB"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">MongoDB</h3>
+            <p className="text-gray-600">
+              MongoDB é o banco de dados NoSQL que utilizo para armazenar dados não estruturados. Com ele, crio aplicações escaláveis e flexíveis.
+              <br />
+            </p>
+          </div>
         </div>
       </section>
 
