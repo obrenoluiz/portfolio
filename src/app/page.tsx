@@ -8,7 +8,7 @@ const HomePage = () => {
     {
       title: 'Nubank Clone',
       description: 'Esse projeto é inspirado no design e funcionalidades do aplicativo Nubank. Ele foi criado com o objetivo de replicar a interface moderna e intuitiva do famoso banco digital, proporcionando uma experiência prática para estudos.',
-      image: '/nubank.png',
+      image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/nubank.png?raw=true',
       link: 'https://github.com/obrenoluiz/Nubank-Clone',
       tags: ['Flutter'],
       isDevelopment: true,
@@ -16,7 +16,7 @@ const HomePage = () => {
     {
       title: 'Panucci Delivery',
       description: 'Um projeto desenvolvido em Flutter que simula um sistema de delivery moderno e funcional. Utilizando o poderoso gerenciamento de estado GetX.',
-      image: '/panucci.png',
+      image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/panucci.png?raw=true',
       link: 'https://github.com/obrenoluiz/Flutter-Panucci-Delivery-using-GetX-Alura',
       tags: ['Flutter'],
       isDevelopment: false,
@@ -24,7 +24,7 @@ const HomePage = () => {
     {
       title: 'Simple Virtual Store',
       description: 'Um aplicativo básico de comércio eletrônico desenvolvido com Flutter. Onde oferece uma interface simples e limpa para navegar pelos produtos, adicioná-los ao carrinho e finalizar a compra.',
-      image: '/virtual_store.png',
+      image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/virtual_store.png?raw=true',
       link: 'https://github.com/obrenoluiz/Simple-Virtual-Store-With-Flutter',
       tags: ['Flutter'],
       isDevelopment: false,
@@ -32,7 +32,7 @@ const HomePage = () => {
     {
       title: 'Info Bitcoin',
       description: 'Um aplicativo em Flutter que permite aos usuários acessar informações em tempo real sobre o Bitcoin e outras criptomoedas. Com preços atualizados, gráficos interativos, notícias do mercado e conversor de moedas, oferece uma experiência intuitiva e amigável em dispositivos Android e iOS.',
-      image: '/flutter_crypto.png',
+      image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/flutter_crypto.png?raw=true',
       link: 'https://github.com/obrenoluiz/Info-Bitcoin-with-flutter',
       tags: ['Flutter'],
       isDevelopment: false,
@@ -40,7 +40,7 @@ const HomePage = () => {
     {
       title: 'Anti VPN',
       description: 'Sistema feito em Typescript utilizando a API da proxycheck.io, para bloquear o uso de VPN no seu sistema.',
-      image: '/anti_vpn.png',
+      image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/anti_vpn.png?raw=true',
       link: 'https://github.com/obrenoluiz/Anti-VPN',
       tags: ['Typescript'],
       isDevelopment: false,
@@ -48,7 +48,7 @@ const HomePage = () => {
     {
       title: 'Discord Login',
       description: 'Esse projeto é uma solução moderna e eficiente para integração de autenticação em seu site, utilizando o poder do OAuth2 do Discord. Esta aplicação permite que os usuários façam login em seu site de forma rápida e segura, utilizando suas credenciais do Discord.',
-      image: '/discord_login.png',
+      image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/discord_login.png?raw=true',
       link: 'https://github.com/obrenoluiz/Discord-Auth-Login',
       tags: ['HTML', 'Javascript'],
       isDevelopment: false,
@@ -56,7 +56,7 @@ const HomePage = () => {
     {
       title: 'Basic Crud with Flutter',
       description: 'Um projeto Flutter que oferece uma implementação básica de operações CRUD (Create, Read, Update, Delete) utilizando o framework Flutter. Este projeto serve como um exemplo de como criar um aplicativo Flutter que interage e tem um grande potencial de gerenciar dados de forma eficiente.',
-      image: '/crud.png',
+      image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/crud.png?raw=true',
       link: 'https://github.com/obrenoluiz/BASIC-CRUD-FLUTTER',
       tags: ['Flutter'],
       isDevelopment: false,
@@ -64,7 +64,7 @@ const HomePage = () => {
     {
       title: 'Website with React + Next.js + Tailwind CSS',
       description: "Um site avançado que integra a API do Discord para autenticação de login e a API do MercadoPago para processar pagamentos, além de oferecer diversas outras funcionalidades!",
-      image: '/website.png',
+      image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/website.png?raw=true',
       link: 'http://surl.li/ztdrdp',
       tags: ['React', 'Next.js', 'Tailwind CSS', 'Typescript', 'MySQL'],
       isDevelopment: false,
@@ -72,13 +72,13 @@ const HomePage = () => {
     {
       title: 'Chrome Extension',
       description: 'Uma extensão simples, desenvolvida entre 2018 e 2019, com o objetivo de manipular visualmente o jogo de futebol online Bonk.io.',
-      image: '/chrome_extension.png',
+      image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/chrome_extension.png?raw=true',
       link: 'https://github.com/obrenoluiz/Chrome-extension-for-a-2D-game',
       tags: ['Javascript'],
       isDevelopment: false,
     },
   ];
-
+  
   return (
     <>
       <Head>
@@ -406,58 +406,58 @@ const HomePage = () => {
       </section>
 
       <section className="bg-gray-100 py-20 px-6">
-  <div className="container mx-auto grid gap-12 md:grid-cols-2 justify-center">
-    <div className="bg-white text-black p-8 rounded-xl shadow-xl flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-16 w-16 text-gray-300"
-        viewBox="0 0 24 24"
-        fill="currentColor"
-      >
-        <path
-          fillRule="evenodd"
-          d="M2.5 4.5A2.5 2.5 0 0 1 5 2h14a2.5 2.5 0 0 1 2.5 2.5v15a2.5 2.5 0 0 1-2.5 2.5H5a2.5 2.5 0 0 1-2.5-2.5v-15zM12 12l9-6H3l9 6z"
-        />
-      </svg>
-      <h3 className="text-2xl font-semibold">E-mail</h3>
-      <p className="text-gray-700">
-        Envie um e-mail para discutir ideias, oportunidades ou apenas para bater um papo.
-      </p>
-      <a
-        href="mailto:brenoluizpv@gmail.com"
-        className="text-blue-400 font-semibold hover:underline"
-      >
-        Enviar E-mail
-      </a>
-    </div>
+        <div className="container mx-auto grid gap-12 md:grid-cols-2 justify-center">
+          <div className="bg-white text-black p-8 rounded-xl shadow-xl flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-16 w-16 text-gray-300"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M2.5 4.5A2.5 2.5 0 0 1 5 2h14a2.5 2.5 0 0 1 2.5 2.5v15a2.5 2.5 0 0 1-2.5 2.5H5a2.5 2.5 0 0 1-2.5-2.5v-15zM12 12l9-6H3l9 6z"
+              />
+            </svg>
+            <h3 className="text-2xl font-semibold">E-mail</h3>
+            <p className="text-gray-700">
+              Envie um e-mail para discutir ideias, oportunidades ou apenas para bater um papo.
+            </p>
+            <a
+              href="mailto:brenoluizpv@gmail.com"
+              className="text-blue-400 font-semibold hover:underline"
+            >
+              Enviar E-mail
+            </a>
+          </div>
 
-    <div className="bg-white text-black p-8 rounded-xl shadow-xl flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-16 w-16 text-gray-300"
-        fill="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          fillRule="evenodd"
-          d="M12 2.25C6.99 2.25 3 5.24 3 9c0 2.75 1.83 5.11 4.35 6.24.32.17.45.32.45.55s-.13.35-.45.54c-1.42.83-2.27 2.23-2.27 3.74 0 2.61 2.27 4.75 4.99 4.75s4.99-2.14 4.99-4.75c0-1.51-.85-2.91-2.27-3.74-.32-.19-.45-.33-.45-.54s.13-.38.45-.55C19.17 14.11 21 11.75 21 9c0-3.76-3.99-6.75-9-6.75zM9.33 14.75l-.01.02c.03-.13.04-.26.05-.39 0-.15-.02-.29-.04-.44l.03.01c-.3-.47-.74-.82-1.28-1.05-1.1-.47-1.8-.99-2.24-1.49-.34-.35-.48-.89-.35-1.34s.6-.74 1.02-.58c1.64.54 3.47 1.04 5.35 1.46-.02.25-.02.51-.03.77-.45-.14-.91-.28-1.37-.41z"
-        />
-      </svg>
-      <h3 className="text-2xl font-semibold">GitHub</h3>
-      <p className="text-gray-700">
-        Confira meus projetos de código aberto, contribuições e muito mais no meu GitHub.
-      </p>
-      <a
-        href="https://github.com/obrenoluiz"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 font-semibold hover:underline"
-      >
-        Visitar GitHub
-      </a>
-    </div>
-  </div>
-</section>
+          <div className="bg-white text-black p-8 rounded-xl shadow-xl flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-16 w-16 text-gray-300"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fillRule="evenodd"
+                d="M12 2.25C6.99 2.25 3 5.24 3 9c0 2.75 1.83 5.11 4.35 6.24.32.17.45.32.45.55s-.13.35-.45.54c-1.42.83-2.27 2.23-2.27 3.74 0 2.61 2.27 4.75 4.99 4.75s4.99-2.14 4.99-4.75c0-1.51-.85-2.91-2.27-3.74-.32-.19-.45-.33-.45-.54s.13-.38.45-.55C19.17 14.11 21 11.75 21 9c0-3.76-3.99-6.75-9-6.75zM9.33 14.75l-.01.02c.03-.13.04-.26.05-.39 0-.15-.02-.29-.04-.44l.03.01c-.3-.47-.74-.82-1.28-1.05-1.1-.47-1.8-.99-2.24-1.49-.34-.35-.48-.89-.35-1.34s.6-.74 1.02-.58c1.64.54 3.47 1.04 5.35 1.46-.02.25-.02.51-.03.77-.45-.14-.91-.28-1.37-.41z"
+              />
+            </svg>
+            <h3 className="text-2xl font-semibold">GitHub</h3>
+            <p className="text-gray-700">
+              Confira meus projetos de código aberto, contribuições e muito mais no meu GitHub.
+            </p>
+            <a
+              href="https://github.com/obrenoluiz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 font-semibold hover:underline"
+            >
+              Visitar GitHub
+            </a>
+          </div>
+        </div>
+      </section>
 
 
       {/* <div className="bg-gradient-to-r from-blue-700 to-blue-900 text-white p-8 rounded-xl shadow-xl flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
