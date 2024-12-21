@@ -2,8 +2,6 @@
 
 const nextConfig = {
     output: "export",
-    basePath: '/logos',
-    assetPrefix: '/logos',
     trailingSlash: true,
     reactStrictMode: true,
     images: {
