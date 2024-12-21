@@ -4,7 +4,7 @@ const nextConfig = {
     trailingSlash: true,
     reactStrictMode: true,
     images: {
-        domains: [],
+        domains: ['github.io'],
     },
     devIndicators: {
         appIsrStatus: false,
