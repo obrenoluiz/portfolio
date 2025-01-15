@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <header className={`shadow-md ${theme === 'dark' ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
       <div className="container mx-auto flex items-center justify-between py-6 px-6">
-        <Link href="#about" className="text-xl font-semibold tracking-wide hover:text-gray-600 transition-colors">
+        <Link href="" className="text-xl font-semibold tracking-wide hover:text-gray-600 transition-colors">
           BRENOLUIZDEV
         </Link>
         <nav className="hidden md:flex space-x-10 text-xl font-semibold tracking-wide">

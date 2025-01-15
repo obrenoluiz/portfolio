@@ -112,13 +112,13 @@ const HomePage = () => {
                 href="#about"
                 className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
               >
-                About Me
+                Sobre mim
               </Link>
               <Link
                 href="#projects"
                 className="bg-gray-200 text-black px-6 py-3 rounded-lg hover:bg-gray-300 transition-colors"
               >
-                View Projects
+                Projetos
               </Link>
             </div>
           </div>
