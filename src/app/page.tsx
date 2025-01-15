@@ -224,6 +224,26 @@ const HomePage = () => {
               <br />
             </p>
           </div>
+          <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://assets.vercel.com/image/upload/front/favicon/vercel/57x57.png"
+                alt="Vercel"
+                className="w-12 h-12"
+              />
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Vercel</h3>
+            <p className="text-gray-600">
+              Vercel é a plataforma que utilizo para deploy de aplicações front-end. Com ela, posso hospedar meus projetos de forma rápida e eficiente.
+              <br />
+            </p>
+          </div>
+
+
+
+          <br />
+          <hr className='my-8 border-gray-300' />
+          <br />
 
           <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
             <div className="flex justify-center mb-4">
