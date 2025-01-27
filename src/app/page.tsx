@@ -6,6 +6,14 @@ import Header from './components/Header';
 const HomePage = () => {
   const projects = [
     {
+      title: 'Site comercial para soluções em energia solar',
+      description: 'Um site moderno e responsivo desenvolvido com React, Next.js e Tailwind CSS. Este projeto foi criado para uma empresa fictícia de energia solar, com o objetivo de promover seus serviços e captar leads de clientes interessados.',
+      image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/placas_solares.png?raw=true',
+      link: 'https://github.com/obrenoluiz/Site-Comercial-para-Solucoes-em-Energia-Solar',
+      tags: ['React', 'Next.js', 'Tailwind CSS', 'Typescript'],
+      isDevelopment: true,
+    },
+    {
       title: 'Nubank Clone',
       description: 'Esse projeto é inspirado no design e funcionalidades do aplicativo Nubank. Ele foi criado com o objetivo de replicar a interface moderna e intuitiva do famoso banco digital, proporcionando uma experiência prática para estudos.',
       image: 'https://github.com/obrenoluiz/portfolio/blob/main/public/nubank.png?raw=true',
